@@ -16,7 +16,7 @@ const handler = {
 
 let proxy = new Proxy(obj,handler);
 
-proxy.d = 5;
+proxy.d = 4;
 
 console.log(proxy.a);
 console.log(proxy.b);
